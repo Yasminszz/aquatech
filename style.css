@@ -102,3 +102,57 @@ body{
     justify-content: center;
     text-align: center;
 }
+
+.navbar a{
+    color: #e3b062;
+    text-decoration: none;
+}
+
+.navbar a:hover{
+    color: #32b9cd;
+}
+
+.box{
+    height: 500px;
+    background-color: rgb(217, 211, 211);
+    width: 420px;
+    border-radius: 3px;
+    display: flex;
+    color: rgb(231, 104, 125);
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    
+}
+
+.span {
+display: block;
+text-align: start;
+font-size: 21px;
+
+}
+
+.input{
+    border: 3px solid  #32b9cd;
+    border-radius: 10px;
+    padding: 10px 40px 10px 40px;
+    text-align: center;
+}
+
+.content{
+    height: 100%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.button{
+    padding: 10px 25px 10px 25px;
+    color: white;
+    background-color: rgb(243, 25, 87);
+    border: rgb(243, 25, 87);
+    border-radius: 5px;
+    font-size: 15px;
+}

@@ -1,11 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <h1>Estamos na tela de Cadastro</h1>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cadastro</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header">
+      <div class="container">
+        <h1 class="titulo">AquaTech</h1>
+        <ul class="navbar">
+          <a href="index.html"><li>Inicial</li></a>
+          <li>Simulador</li>
+          <li>|</li>
+          <li>Login</li>
+          <li><b>Cadastro</b></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="banner">
+      <div class="box">
+        <div class="content">
+          <h1>Bem-vindo!</h1>
+          <div>
+            <span class="span">Nome:</span>
+            <input type="text" id="input_nome" class="input" placeholder="Seu nome" />
+          </div>
+          <div>
+            <span class="span">E-mail:</span>
+            <input type="text" id="input_email" class="input" placeholder="meuemail@provedor.com"/>
+          </div>
+          <div>
+            <span class="span">Senha:</span>
+            <input type="password" id="input_senha" class="input" placeholder="******"/>
+          </div>
+          <div>
+            <span class="span">Confirmação da Senha:</span>
+            <input type="password" id="input_confirmacao" class="input" placeholder="******"/>
+          </div>
+          <button class="button">Cadastrar</button>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
